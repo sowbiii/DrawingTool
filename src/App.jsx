@@ -13,6 +13,7 @@ function App() {
         <Route path="/register" element={<Reg />} ></Route>
         <Route path="/log" element={<Log/>} ></Route>
         <Route path="/home" element={<Home/>}></Route>
+        
         </Routes>
     </BrowserRouter>
   );
