@@ -24,6 +24,8 @@ app.post('/Log', async (req, res) => {
                 res.status(400).json("The password is incorrect");
             }
         } else {
+
+            
             res.status(404).json("No record existed");
         }
     } catch (error) {
